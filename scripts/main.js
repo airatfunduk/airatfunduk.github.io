@@ -18,7 +18,7 @@ if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   var storedName = localStorage.getItem('name');
-  myHeading.textContent = 'Welcome to the party, ' + storedName;
+  myHeading.textContent = 'Вы че тут понавешали?????, ' + storedName;
 }
 myButton.onclick = function() {
   setUserName();
